@@ -3,7 +3,6 @@ print("--- BLOOD DONOR SCREENING SYSTEM ---")
 donor_age = int(input("Enter donor's age: "))
 donor_weight = float(input("Enter donor's weight (kg): "))
 
-# Kiểm tra điều kiện hiến máu
 if donor_age >= 18 and donor_weight >= 50:
 
     print("Result: ELIGIBLE.")
@@ -13,7 +12,6 @@ else:
 
     print("Result: NOT ELIGIBLE.")
 
-    # Thông báo lý do
     if donor_age < 18:
         print("- Donor is under 18 years old.")
 
